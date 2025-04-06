@@ -1,0 +1,19 @@
+[0.006s] Invoking command in '/home/janhavi/GenericSub/build/generic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target gen_pub[0m
+[0.051s] [ 25%] [32mBuilding CXX object CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o[0m
+[0.056s] [ 75%] Built target gen_pub
+[1.401s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.401s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:239:10:[m[K [01;31m[Kerror: [m[Kexpected statement at end of input
+[1.401s]   239 |   rclcpp:
+[1.401s]       |          [01;31m[K^[m[K
+[1.401s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:239:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.401s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:235:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.401s]   235 | [01;36m[K{[m[K
+[1.402s]       | [01;36m[K^[m[K
+[1.412s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:239:3:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[1.412s]   239 |   [01;35m[Krclcpp[m[K:
+[1.412s]       |   [01;35m[K^~~~~~[m[K
+[8.588s] gmake[2]: *** [CMakeFiles/gen_sub.dir/build.make:76: CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o] Error 1
+[8.588s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gen_sub.dir/all] Error 2
+[8.588s] gmake: *** [Makefile:146: all] Error 2
+[8.591s] Invoked command in '/home/janhavi/GenericSub/build/generic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12

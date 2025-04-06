@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/janhavi/GenericSub/build/generic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target gen_sub[0m
+[0.057s] [ 50%] Built target gen_pub
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o[0m
+[20.559s] [100%] [32m[1mLinking CXX executable gen_sub[0m
+[22.083s] [100%] Built target gen_sub
+[22.128s] Invoked command in '/home/janhavi/GenericSub/build/generic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
+[22.142s] Invoking command in '/home/janhavi/GenericSub/build/generic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/GenericSub/build/generic
+[22.149s] -- Install configuration: ""
+[22.149s] -- Installing: /home/janhavi/GenericSub/install/generic/lib/generic/gen_sub
+[22.161s] -- Set runtime path of "/home/janhavi/GenericSub/install/generic/lib/generic/gen_sub" to ""
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/lib/generic/gen_pub
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/package_run_dependencies/generic
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/parent_prefix_path/generic
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/ament_prefix_path.sh
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/ament_prefix_path.dsv
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/path.sh
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/path.dsv
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.bash
+[22.161s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.sh
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.zsh
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.dsv
+[22.162s] -- Installing: /home/janhavi/GenericSub/install/generic/share/generic/package.dsv
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/packages/generic
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/cmake/genericConfig.cmake
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/cmake/genericConfig-version.cmake
+[22.162s] -- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/package.xml
+[22.163s] Invoked command in '/home/janhavi/GenericSub/build/generic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/GenericSub/build/generic

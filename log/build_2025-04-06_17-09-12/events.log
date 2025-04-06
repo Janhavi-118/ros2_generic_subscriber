@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (generic) JobQueued: {'identifier': 'generic', 'dependencies': OrderedDict()}
+[0.000325] (generic) JobStarted: {'identifier': 'generic'}
+[0.004729] (generic) JobProgress: {'identifier': 'generic', 'progress': 'cmake'}
+[0.005001] (generic) JobProgress: {'identifier': 'generic', 'progress': 'build'}
+[0.005477] (generic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/GenericSub/build/generic', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/GenericSub/build/generic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('ROS_PACKAGE_PATH', ':/home/janhavi:/home/janhavi/Tools/simulation/gazebo-classic/sitl_gazebo-classic'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi/GenericSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2069'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/GenericSub/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2034,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c12d8ae9_b1bd_4f7d_b5ee_1c108f8ead7b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.58BS42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/GenericSub/build/generic'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble')]), 'shell': False}
+[0.021364] (generic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099526] (-) TimerEvent: {}
+[0.104911] (generic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.121042] (generic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.122455] (generic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.125615] (generic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.131086] (generic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.137938] (generic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.157409] (generic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.158144] (generic) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.168641] (generic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.195978] (generic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.199743] (-) TimerEvent: {}
+[0.202875] (generic) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.212407] (generic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.257036] (generic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.257233] (generic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.257324] (generic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.257557] (generic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.257652] (generic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.257734] (generic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.257874] (generic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.258046] (generic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.263747] (generic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.266098] (generic) StdoutLine: {'line': b'-- Build files have been written to: /home/janhavi/GenericSub/build/generic\n'}
+[0.283560] (generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gen_sub\x1b[0m\n'}
+[0.283706] (generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gen_pub\x1b[0m\n'}
+[0.296413] (generic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o\x1b[0m\n'}
+[0.296578] (generic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gen_pub.dir/src/gen_pub.cpp.o\x1b[0m\n'}
+[0.299825] (-) TimerEvent: {}
+[0.400190] (-) TimerEvent: {}
+[0.404264] (generic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: No such file or directory\n'}
+[0.404466] (generic) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[0.404549] (generic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.404619] (generic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.406282] (generic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gen_sub.dir/build.make:76: CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o] Error 1\n'}
+[0.406461] (generic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gen_sub.dir/all] Error 2\n'}
+[0.406541] (generic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.411920] (generic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/GenericSub/src/generic/src/gen_pub.cpp:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knav_msgs/msg/odometry.hpp: No such file or directory\n'}
+[0.412079] (generic) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"nav_msgs/msg/odometry.hpp"\x1b[m\x1b[K\n'}
+[0.412170] (generic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.412253] (generic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.413615] (generic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gen_pub.dir/build.make:76: CMakeFiles/gen_pub.dir/src/gen_pub.cpp.o] Error 1\n'}
+[0.413769] (generic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gen_pub.dir/all] Error 2\n'}
+[0.413934] (generic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.415640] (generic) CommandEnded: {'returncode': 2}
+[0.423897] (generic) JobEnded: {'identifier': 'generic', 'rc': 2}
+[0.434430] (-) EventReactorShutdown: {}

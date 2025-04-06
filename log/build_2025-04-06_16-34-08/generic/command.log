@@ -1,0 +1,2 @@
+Invoking command in '/home/janhavi/GenericSub/build/generic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
+Invoked command in '/home/janhavi/GenericSub/build/generic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12

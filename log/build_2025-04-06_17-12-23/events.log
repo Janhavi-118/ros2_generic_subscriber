@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (generic) JobQueued: {'identifier': 'generic', 'dependencies': OrderedDict()}
+[0.000564] (generic) JobStarted: {'identifier': 'generic'}
+[0.005727] (generic) JobProgress: {'identifier': 'generic', 'progress': 'cmake'}
+[0.006065] (generic) JobProgress: {'identifier': 'generic', 'progress': 'build'}
+[0.006586] (generic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/GenericSub/build/generic', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/GenericSub/build/generic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('ROS_PACKAGE_PATH', ':/home/janhavi:/home/janhavi/Tools/simulation/gazebo-classic/sitl_gazebo-classic'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi/GenericSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2069'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/GenericSub/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2034,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c12d8ae9_b1bd_4f7d_b5ee_1c108f8ead7b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.58BS42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/GenericSub/build/generic'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble')]), 'shell': False}
+[0.042462] (generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gen_sub\x1b[0m\n'}
+[0.053698] (generic) StdoutLine: {'line': b'[ 50%] Built target gen_pub\n'}
+[0.053953] (generic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o\x1b[0m\n'}
+[0.099966] (-) TimerEvent: {}
+[0.200364] (-) TimerEvent: {}
+[0.300778] (-) TimerEvent: {}
+[0.401052] (-) TimerEvent: {}
+[0.501448] (-) TimerEvent: {}
+[0.601738] (-) TimerEvent: {}
+[0.702138] (-) TimerEvent: {}
+[0.802414] (-) TimerEvent: {}
+[0.902712] (-) TimerEvent: {}
+[1.003025] (-) TimerEvent: {}
+[1.103333] (-) TimerEvent: {}
+[1.203629] (-) TimerEvent: {}
+[1.303932] (-) TimerEvent: {}
+[1.404332] (-) TimerEvent: {}
+[1.504722] (-) TimerEvent: {}
+[1.605105] (-) TimerEvent: {}
+[1.705377] (-) TimerEvent: {}
+[1.805709] (-) TimerEvent: {}
+[1.906086] (-) TimerEvent: {}
+[2.006638] (-) TimerEvent: {}
+[2.107054] (-) TimerEvent: {}
+[2.207335] (-) TimerEvent: {}
+[2.307596] (-) TimerEvent: {}
+[2.407860] (-) TimerEvent: {}
+[2.508203] (-) TimerEvent: {}
+[2.608466] (-) TimerEvent: {}
+[2.708728] (-) TimerEvent: {}
+[2.809056] (-) TimerEvent: {}
+[2.909408] (-) TimerEvent: {}
+[3.009741] (-) TimerEvent: {}
+[3.110066] (-) TimerEvent: {}
+[3.210441] (-) TimerEvent: {}
+[3.310739] (-) TimerEvent: {}
+[3.411044] (-) TimerEvent: {}
+[3.511471] (-) TimerEvent: {}
+[3.611754] (-) TimerEvent: {}
+[3.712139] (-) TimerEvent: {}
+[3.812405] (-) TimerEvent: {}
+[3.912705] (-) TimerEvent: {}
+[4.013008] (-) TimerEvent: {}
+[4.113430] (-) TimerEvent: {}
+[4.213809] (-) TimerEvent: {}
+[4.314097] (-) TimerEvent: {}
+[4.414494] (-) TimerEvent: {}
+[4.514890] (-) TimerEvent: {}
+[4.615198] (-) TimerEvent: {}
+[4.715494] (-) TimerEvent: {}
+[4.815784] (-) TimerEvent: {}
+[4.916162] (-) TimerEvent: {}
+[5.016435] (-) TimerEvent: {}
+[5.116824] (-) TimerEvent: {}
+[5.217213] (-) TimerEvent: {}
+[5.317468] (-) TimerEvent: {}
+[5.417848] (-) TimerEvent: {}
+[5.518236] (-) TimerEvent: {}
+[5.618618] (-) TimerEvent: {}
+[5.718983] (-) TimerEvent: {}
+[5.819339] (-) TimerEvent: {}
+[5.919692] (-) TimerEvent: {}
+[6.019981] (-) TimerEvent: {}
+[6.120272] (-) TimerEvent: {}
+[6.220665] (-) TimerEvent: {}
+[6.320922] (-) TimerEvent: {}
+[6.421303] (-) TimerEvent: {}
+[6.521688] (-) TimerEvent: {}
+[6.622068] (-) TimerEvent: {}
+[6.722486] (-) TimerEvent: {}
+[6.822747] (-) TimerEvent: {}
+[6.923014] (-) TimerEvent: {}
+[7.023410] (-) TimerEvent: {}
+[7.123664] (-) TimerEvent: {}
+[7.224035] (-) TimerEvent: {}
+[7.324311] (-) TimerEvent: {}
+[7.424691] (-) TimerEvent: {}
+[7.524999] (-) TimerEvent: {}
+[7.625327] (-) TimerEvent: {}
+[7.725662] (-) TimerEvent: {}
+[7.825982] (-) TimerEvent: {}
+[7.926315] (-) TimerEvent: {}
+[8.026595] (-) TimerEvent: {}
+[8.126882] (-) TimerEvent: {}
+[8.227160] (-) TimerEvent: {}
+[8.327446] (-) TimerEvent: {}
+[8.427705] (-) TimerEvent: {}
+[8.528098] (-) TimerEvent: {}
+[8.628374] (-) TimerEvent: {}
+[8.728669] (-) TimerEvent: {}
+[8.829072] (-) TimerEvent: {}
+[8.929363] (-) TimerEvent: {}
+[9.029745] (-) TimerEvent: {}
+[9.130125] (-) TimerEvent: {}
+[9.230551] (-) TimerEvent: {}
+[9.330962] (-) TimerEvent: {}
+[9.431383] (-) TimerEvent: {}
+[9.531809] (-) TimerEvent: {}
+[9.632229] (-) TimerEvent: {}
+[9.732616] (-) TimerEvent: {}
+[9.832979] (-) TimerEvent: {}
+[9.933361] (-) TimerEvent: {}
+[10.033762] (-) TimerEvent: {}
+[10.134153] (-) TimerEvent: {}
+[10.234444] (-) TimerEvent: {}
+[10.334703] (-) TimerEvent: {}
+[10.434952] (-) TimerEvent: {}
+[10.535216] (-) TimerEvent: {}
+[10.635492] (-) TimerEvent: {}
+[10.735735] (-) TimerEvent: {}
+[10.835992] (-) TimerEvent: {}
+[10.936216] (-) TimerEvent: {}
+[11.036594] (-) TimerEvent: {}
+[11.136843] (-) TimerEvent: {}
+[11.237083] (-) TimerEvent: {}
+[11.337337] (-) TimerEvent: {}
+[11.437571] (-) TimerEvent: {}
+[11.537885] (-) TimerEvent: {}
+[11.638140] (-) TimerEvent: {}
+[11.738512] (-) TimerEvent: {}
+[11.838795] (-) TimerEvent: {}
+[11.939028] (-) TimerEvent: {}
+[12.039344] (-) TimerEvent: {}
+[12.139642] (-) TimerEvent: {}
+[12.239892] (-) TimerEvent: {}
+[12.340210] (-) TimerEvent: {}
+[12.440499] (-) TimerEvent: {}
+[12.540769] (-) TimerEvent: {}
+[12.641032] (-) TimerEvent: {}
+[12.741344] (-) TimerEvent: {}
+[12.841615] (-) TimerEvent: {}
+[12.941905] (-) TimerEvent: {}
+[13.042243] (-) TimerEvent: {}
+[13.142529] (-) TimerEvent: {}
+[13.242790] (-) TimerEvent: {}
+[13.343066] (-) TimerEvent: {}
+[13.443440] (-) TimerEvent: {}
+[13.543725] (-) TimerEvent: {}
+[13.643937] (-) TimerEvent: {}
+[13.744189] (-) TimerEvent: {}
+[13.844401] (-) TimerEvent: {}
+[13.944647] (-) TimerEvent: {}
+[14.044894] (-) TimerEvent: {}
+[14.145158] (-) TimerEvent: {}
+[14.245385] (-) TimerEvent: {}
+[14.345643] (-) TimerEvent: {}
+[14.445897] (-) TimerEvent: {}
+[14.546225] (-) TimerEvent: {}
+[14.646457] (-) TimerEvent: {}
+[14.746719] (-) TimerEvent: {}
+[14.846976] (-) TimerEvent: {}
+[14.947336] (-) TimerEvent: {}
+[15.047564] (-) TimerEvent: {}
+[15.147827] (-) TimerEvent: {}
+[15.248061] (-) TimerEvent: {}
+[15.348299] (-) TimerEvent: {}
+[15.448545] (-) TimerEvent: {}
+[15.548818] (-) TimerEvent: {}
+[15.649103] (-) TimerEvent: {}
+[15.749401] (-) TimerEvent: {}
+[15.849661] (-) TimerEvent: {}
+[15.949931] (-) TimerEvent: {}
+[16.050240] (-) TimerEvent: {}
+[16.150458] (-) TimerEvent: {}
+[16.250702] (-) TimerEvent: {}
+[16.350955] (-) TimerEvent: {}
+[16.451203] (-) TimerEvent: {}
+[16.551434] (-) TimerEvent: {}
+[16.651648] (-) TimerEvent: {}
+[16.751892] (-) TimerEvent: {}
+[16.852206] (-) TimerEvent: {}
+[16.952416] (-) TimerEvent: {}
+[17.052657] (-) TimerEvent: {}
+[17.152884] (-) TimerEvent: {}
+[17.253169] (-) TimerEvent: {}
+[17.353526] (-) TimerEvent: {}
+[17.453848] (-) TimerEvent: {}
+[17.554175] (-) TimerEvent: {}
+[17.654399] (-) TimerEvent: {}
+[17.754619] (-) TimerEvent: {}
+[17.854860] (-) TimerEvent: {}
+[17.955088] (-) TimerEvent: {}
+[18.055339] (-) TimerEvent: {}
+[18.155631] (-) TimerEvent: {}
+[18.256017] (-) TimerEvent: {}
+[18.356328] (-) TimerEvent: {}
+[18.456834] (-) TimerEvent: {}
+[18.557159] (-) TimerEvent: {}
+[18.657437] (-) TimerEvent: {}
+[18.757842] (-) TimerEvent: {}
+[18.858281] (-) TimerEvent: {}
+[18.958602] (-) TimerEvent: {}
+[19.058997] (-) TimerEvent: {}
+[19.159302] (-) TimerEvent: {}
+[19.259623] (-) TimerEvent: {}
+[19.367813] (-) TimerEvent: {}
+[19.468124] (-) TimerEvent: {}
+[19.568433] (-) TimerEvent: {}
+[19.582332] (generic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gen_sub\x1b[0m\n'}
+[19.668526] (-) TimerEvent: {}
+[19.768815] (-) TimerEvent: {}
+[19.869248] (-) TimerEvent: {}
+[19.969561] (-) TimerEvent: {}
+[20.069946] (-) TimerEvent: {}
+[20.170294] (-) TimerEvent: {}
+[20.270610] (-) TimerEvent: {}
+[20.370924] (-) TimerEvent: {}
+[20.471237] (-) TimerEvent: {}
+[20.571551] (-) TimerEvent: {}
+[20.671860] (-) TimerEvent: {}
+[20.772252] (-) TimerEvent: {}
+[20.872550] (-) TimerEvent: {}
+[20.972866] (-) TimerEvent: {}
+[21.040156] (generic) StdoutLine: {'line': b'[100%] Built target gen_sub\n'}
+[21.053335] (generic) CommandEnded: {'returncode': 0}
+[21.053867] (generic) JobProgress: {'identifier': 'generic', 'progress': 'install'}
+[21.060704] (generic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/janhavi/GenericSub/build/generic'], 'cwd': '/home/janhavi/GenericSub/build/generic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('ROS_PACKAGE_PATH', ':/home/janhavi:/home/janhavi/Tools/simulation/gazebo-classic/sitl_gazebo-classic'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi/GenericSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2069'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/GenericSub/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2034,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c12d8ae9_b1bd_4f7d_b5ee_1c108f8ead7b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.58BS42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/GenericSub/build/generic'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/GenericSub/install/generic:/opt/ros/humble')]), 'shell': False}
+[21.067695] (generic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.067910] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/lib/generic/gen_sub\n'}
+[21.072952] (-) TimerEvent: {}
+[21.077104] (generic) StdoutLine: {'line': b'-- Set runtime path of "/home/janhavi/GenericSub/install/generic/lib/generic/gen_sub" to ""\n'}
+[21.077357] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/lib/generic/gen_pub\n'}
+[21.078456] (generic) StdoutLine: {'line': b'-- Set runtime path of "/home/janhavi/GenericSub/install/generic/lib/generic/gen_pub" to ""\n'}
+[21.078532] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/package_run_dependencies/generic\n'}
+[21.078684] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/parent_prefix_path/generic\n'}
+[21.078774] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/ament_prefix_path.sh\n'}
+[21.078809] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/generic/environment/ament_prefix_path.dsv\n'}
+[21.078859] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/environment/path.sh\n'}
+[21.078887] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/generic/environment/path.dsv\n'}
+[21.078914] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.bash\n'}
+[21.078969] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.sh\n'}
+[21.078995] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.zsh\n'}
+[21.079020] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/generic/local_setup.dsv\n'}
+[21.079047] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/generic/package.dsv\n'}
+[21.079073] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/ament_index/resource_index/packages/generic\n'}
+[21.079099] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/cmake/genericConfig.cmake\n'}
+[21.079126] (generic) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/GenericSub/install/generic/share/generic/cmake/genericConfig-version.cmake\n'}
+[21.079159] (generic) StdoutLine: {'line': b'-- Installing: /home/janhavi/GenericSub/install/generic/share/generic/package.xml\n'}
+[21.081306] (generic) CommandEnded: {'returncode': 0}
+[21.095666] (generic) JobEnded: {'identifier': 'generic', 'rc': 0}
+[21.096076] (-) EventReactorShutdown: {}

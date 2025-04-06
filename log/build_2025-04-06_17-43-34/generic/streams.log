@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/janhavi/GenericSub/build/generic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
+[0.053s] [ 50%] Built target gen_pub
+[0.055s] [ 75%] [32mBuilding CXX object CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o[0m
+[1.365s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:[m[K In lambda function:
+[1.365s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:131:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.365s]   131 |       [01;31m[K}[m[K);
+[1.365s]       |       [01;31m[K^[m[K
+[1.420s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = std_msgs::msg::String_<std::allocator<void> >][m[K’:
+[1.420s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:63:45:[m[K   required from here
+[1.420s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.420s]   129 |       [this]([01;35m[Ktypename T::SharedPtr msg[m[K) {
+[1.420s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.444s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = std_msgs::msg::Int32_<std::allocator<void> >][m[K’:
+[1.444s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:65:44:[m[K   required from here
+[1.444s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.468s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = std_msgs::msg::Float32_<std::allocator<void> >][m[K’:
+[1.468s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:67:46:[m[K   required from here
+[1.468s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.495s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = std_msgs::msg::Bool_<std::allocator<void> >][m[K’:
+[1.495s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:69:43:[m[K   required from here
+[1.496s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.519s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’:
+[1.520s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:71:49:[m[K   required from here
+[1.520s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.545s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = geometry_msgs::msg::Pose_<std::allocator<void> >][m[K’:
+[1.546s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:73:48:[m[K   required from here
+[1.546s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.571s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = sensor_msgs::msg::Temperature_<std::allocator<void> >][m[K’:
+[1.571s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:75:53:[m[K   required from here
+[1.572s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.597s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = nav_msgs::msg::Odometry_<std::allocator<void> >][m[K’:
+[1.597s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:77:47:[m[K   required from here
+[1.597s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.623s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[1.623s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:79:47:[m[K   required from here
+[1.623s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.674s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = sensor_msgs::msg::Imu_<std::allocator<void> >][m[K’:
+[1.674s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:81:45:[m[K   required from here
+[1.674s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.700s] /home/janhavi/GenericSub/src/generic/src/gen_sub.cpp: In instantiation of ‘[01m[Kvoid GenericSubscriber::subscribe() [with T = sensor_msgs::msg::LaserScan_<std::allocator<void> >][m[K’:
+[1.700s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:83:51:[m[K   required from here
+[1.700s] [01m[K/home/janhavi/GenericSub/src/generic/src/gen_sub.cpp:129:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.652s] gmake[2]: *** [CMakeFiles/gen_sub.dir/build.make:76: CMakeFiles/gen_sub.dir/src/gen_sub.cpp.o] Error 1
+[8.652s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gen_sub.dir/all] Error 2
+[8.652s] gmake: *** [Makefile:146: all] Error 2
+[8.654s] Invoked command in '/home/janhavi/GenericSub/build/generic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/GenericSub/build/generic -- -j12 -l12
